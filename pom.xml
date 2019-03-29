@@ -29,18 +29,18 @@
         <groupId>org.jenkins-ci</groupId>
         <artifactId>jenkins</artifactId>
         <version>1.51</version>
-        <relativePath/>
+        <relativePath />
     </parent>
     <groupId>io.jenkins.temp.jelly</groupId>
     <artifactId>multiline-secrets-ui</artifactId>
-    <version>${revision}${changelist}</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <scm>
       <connection>scm:git:git://github.com/jenkinsci/lib-multiline-secrets-ui.git</connection>
       <developerConnection>scm:git:git@github.com:jenkinsci/lib-multiline-secrets-ui.git</developerConnection>
       <url>https://github.com/jenkinsci/lib-multiline-secrets-ui</url>
-      <tag>${scmTag}</tag>
+      <tag>multiline-secrets-ui-1.0</tag>
     </scm>
     
     <name>Multiline Secrets UI</name>
