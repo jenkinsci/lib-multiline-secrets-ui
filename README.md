@@ -1,6 +1,6 @@
 # Jenkins Multiline Secrets UI
 
-This library is provided as a way for plugins to use the new multiline secrets UI component until the component is generally available in supported versions of Jenkins.
+Introduced in Jenkins 2.171 (weekly) / 2.176.1 (LTS), this library is provided as a way for plugins to use the new multiline secrets UI component until plugins can safely depend on requiring Jenkins 2.176.1 at minimum.
 See also [Storing Secrets in Jenkins](https://jenkins.io/doc/developer/security/secrets/) for more information about how secrets are used.
 
 Add a dependency in your plugin:
@@ -135,7 +135,7 @@ f.entry(title: 'Some Secret', field: 'value') {
 
 ## Migrating to Official Version
 
-**When Jenkins is released with this UI component integrated, this library will no longer be required.**
+Starting in Jenkins 2.171 and 2.176.1, this component was integrated into Jenkins.
 To migrate to the Jenkins version of this component:
 
 0. Remove usages of the `/io/jenkins/temp/jelly` namespace in Jelly and Groovy views.
